@@ -12,6 +12,7 @@
     <modules>
         <module>../social</module>
         <module>../foundation</module>
+        <module>../gaming</module>
     </modules>
 
 </project>
