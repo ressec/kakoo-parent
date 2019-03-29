@@ -13,6 +13,7 @@
         <module>../social</module>
         <module>../foundation</module>
         <module>../gaming</module>
+        <module>../experiment</module>
     </modules>
 
 </project>
