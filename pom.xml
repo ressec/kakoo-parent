@@ -244,4 +244,22 @@
 
     </repositories>
 
+    <distributionManagement>
+
+        <!-- Publish the releases here -->
+        <repository>
+            <id>nexus-releases</id>
+            <name>nexus-releases</name>
+            <url>http://83.153.27.91:9086/nexus/content/repositories/releases/</url>
+        </repository>
+
+        <!-- Publish the snapshots here -->
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>nexus-snapshots</name>
+            <url>http://83.153.27.91:9086/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+
+    </distributionManagement>
+
 </project>
